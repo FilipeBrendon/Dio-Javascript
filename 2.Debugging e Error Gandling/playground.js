@@ -1,6 +1,6 @@
 function validaArray(arr, num){
    try {
-    if(!arr && !num) throw new ReferenceError("Envie os Parâmetros")
+    if(!arr && !num) throw new ReferenceError("Envie os Parâmetros");
 
     if(typeof arr !== "object") throw new TypeError ("Array precisa ser do tipo object")
     
